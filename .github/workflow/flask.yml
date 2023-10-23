@@ -3,9 +3,9 @@ name: Flask CICD
 # 觸發條件
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "main" ]
 
 # 執行一項或多項任務
 jobs:
