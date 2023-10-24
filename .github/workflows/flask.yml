@@ -45,4 +45,3 @@ jobs:
         script: | 
           cd /home/deploy_test
           git pull https://github.com/DennyTs/ptt-crawler.git
-          docker-compose up --build -d
