@@ -37,7 +37,7 @@ jobs:
 
     # 遠端部署
     - name: CD
-      uses: dennytsai8201@instance-1
+      uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST }}
         USERNAME: ${{ secrets.USERNAME }}
