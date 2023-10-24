@@ -43,5 +43,5 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         KEY: ${{ secrets.SSHKEY }}
         script: | 
-          cd /home/deploy_test
+          cd /home/dennytsai8201/deploy_test
           git pull https://github.com/DennyTs/ptt-crawler.git
